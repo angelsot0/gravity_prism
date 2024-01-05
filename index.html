@@ -2,32 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="favicon.ico?v=2" rel="icon" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <title>Angel Soto</title>
 </head>
 <body>
-    <h1 class="title">My website!1!one</h1>
-    <div>
-        <img src="https://render.fineartamerica.com/images/rendered/default/print/6.5/8/break/images/artworkimages/medium/1/sweet-potato-leah-saulnier-the-painting-maniac.jpg" alt="image of a cartoon sweet-potato-leah-saulnier-the-painting-maniac">
+    <div class="top-container"><!-- content division element. Allows to split up or devide content on a site-->
+        <img src="images/cloud.png" alt="clouds" class="top-cloud">
+        <h1>I'm Angel</h1>
+        <h2>A programmer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img src="images/mountain.png" alt="clouds" class="top-mountain">
     </div>
-    <h2>Reviews:</h2>
-    <h3 class="review"><em>"It's funny"</em>- My wife</h3>
 
-    <div class="bottom_div">
-        <div class="one">
-            Item one
+    <div class="middle-container">
+        <div class="profile">
+          <img class ="coding-img" src="images/coding.png" alt="cartoon of a person coding"> <!-- *profile picture* -->
+          <h2>Hello <img class="waving-hand" alt="waving hand" src="images/waving-hand.gif"> </h2>
+          <p>This website is just for fun to practice my coding</p>
         </div>
-        <div class="two">
-            Item two
+        <hr>
+        <div class="skills">
+          <h2>My Skills <!-- <img class="skills" src="images/skills.gif" alt="skills icon"> this peice of code breaks in css for whatever reason --> </h2>
+          <div class="skill-row-left">
+            <img class="sword" src="images/sword.gif" alt="a sword">
+            <h3>Gaming</h3>
+            <p>I've been into gaming for as long as i can remeber with my first console being a Gameboy. Now i spend my time playing on my PC with my friends.</p>
+          </div>
+
+          <div class="skill-row-right">
+            <img class="sleeping-gif" src="images/sleeping.webp" alt="sleeping cat">
+            <h3>Napping</h3>
+            <p>If i am not playing video games, I am probably napping honestly. </p>
+          </div>
         </div>
-        <div class="three">
-            Item three
+        
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+            <p> <img class="pepe_img" src="images/pepe.png"> Send me your best memes! <img class="pepe_img" src="images/pepe.png"></p><br>
+          <a class="btn" href="mailto:angel@angelsoto.dev">CONTACT ME</a>
         </div>
-    </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.appbrewery.co/">Github to see what this code looks like</a>
+        <p class="copyright">© Angel Soto 2024.</p>
+      </div>
+  
 </body>
 </html>
